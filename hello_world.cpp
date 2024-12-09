@@ -1,9 +1,10 @@
 #include <iostream>
-//Эта программа приветствует пользователя по имени
+
+// This program greets the user by name
 int main() {
     std::string name;
-    std::cout << "Enter your name: "; //Просим пользователя ввести его имя
-    std::cin >> name;//
-    std::cout << "Hello world from " << name << std::endl; //
+    std::cout << "Enter your name: "; // Ask user for their name
+    std::cin >> name; // Read user's name
+    std::cout << "Hello world from " << name << std::endl; // Greet the user
     return 0;
 }
